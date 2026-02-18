@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 1 - Basic Webpage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Webpage</h1>
+        <p>This is Task 1 of Web Development Internship</p>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>I am learning HTML, CSS, and JavaScript.</p>
+
+        <img src="https://via.placeholder.com/300" alt="Sample Image">
+
+        <br><br>
+
+        <a href="https://www.google.com" target="_blank">Visit Google</a>
+    </section>
+
+    <section>
+        <button onclick="showMessage()">Click Me</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
